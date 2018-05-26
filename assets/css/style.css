@@ -247,104 +247,6 @@ Contat Page
 
 
 
-
-/*************************
-SMALL MOBILE DEVICES
-*************************/
-
-
-@media screen and (max-width: 640px) {
-
-   
-
-    header{
-        position: static;
-        margin-bottom: 20px;
-        width: 100%;
-        padding: auto 0;
-    }
-    
-    header .container {
-       padding: 0;
-      }
-    
-      main.container{
-          padding-top: 0;
-      }
-      
-      .name, .logo {
-        width: 100%;
-        text-align: center;
-      }
-      
-      .logo {
-        width: 100%;
-        padding: 32px 0;
-      }
-      
-      .nav {  
-        width: 100%;
-        text-align: center;
-        padding: 1.7em 0;
-        font-size: 1.2em;
-        margin: 15px 0;
-      }
-
-      .nav a{
-        width: 30%;
-        margin-left: 0 auto;
-        padding-left: 0 auto;
-        
-      }
-      
-      .nav ul li {
-        padding-left: 30px 0;
-        margin-right: 40px;
-      }
-      
-      .nav ul li:first-child {
-        margin-left: 0;
-        padding-left: 0 0;
-      }
-      
-      .content {
-          width: 580px;
-          padding: 10px;
-      } 
-      
-      .main {
-        width: 500px;
-        margin: 40px auto;
-      }
-      
-      .portfolio {
-        text-align: center;
-      }
-      
-      .portfolio-item {
-        width: 100%;
-        margin: 0 auto;
-      }
-      
-      .portfolio-item:nth-child(even) {
-          margin-left: 0;
-      }
-      
-      .contact {
-        width: 470px;
-      }
-      
-      form {
-        width: 100%;
-        max-width: 100%;
-      }
-      
-      footer{
-          width: 100%;
-          text-align: center;
-      }
-      
-
 /**************************************
 MEDIUM SIZED DEVICES --LAPTOPS TABLETS
 ***************************************/
@@ -430,5 +332,102 @@ Full Page Site
     }
 }
   
+/*************************
+SMALL MOBILE DEVICES
+*************************/
 
 
+@media screen and (max-width: 640px) {
+
+   
+
+    header{
+        position: static;
+        margin-bottom: 20px;
+        width: 100%;
+        padding: auto 0;
+    }
+    
+    header .container {
+       padding: 0;
+      }
+    
+      main.container{
+          padding-top: 0;
+      }
+      
+      .name, .logo {
+        width:75%;
+        text-align: center;
+        padding: 0 auto;
+        position: relative;
+      }
+      
+      .logo {
+        width: 100%;
+        padding: 32px;        
+      }
+      
+      .nav {  
+        width: 80%;
+        text-align: center;
+        padding: 1.7em 0;
+        font-size: 1.2em;
+        margin: 15px 0;
+      }
+
+      .nav a{
+        width: 30%;
+        margin-left: 0 auto;
+        padding-left: 0 auto;
+        
+      }
+      
+      .nav ul li {
+        padding-left: 30px 0;
+        margin-right: 40px;
+      }
+      
+      .nav ul li:first-child {
+        margin-left: 0;
+        padding-left: 0 0;
+      }
+      
+      .content {
+          width: 580px;
+          padding: 0 20px;
+          margin-left: 20px;
+      } 
+      
+      .main {
+        width: 500px;
+        margin: 40px auto;
+       
+      }
+      
+      .portfolio {
+        text-align: center;
+      }
+      
+      .portfolio-item {
+        width: 100%;
+        margin: 0 auto;
+      }
+      
+      .portfolio-item:nth-child(even) {
+          margin-left: 0;
+      }
+      
+      .contact {
+        width: 470px;
+      }
+      
+      form {
+        width: 100%;
+        max-width: 100%;
+      }
+      
+      footer{
+          width: 100%;
+          text-align: center;
+      }

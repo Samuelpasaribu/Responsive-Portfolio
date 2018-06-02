@@ -395,11 +395,11 @@ SMALL MOBILE DEVICES
         padding-left: 0 0;
       }
       
-     /* .content {
+      .content {
           width: 580px;
           padding: 0;
           margin-left: 20px;
-      } */
+      } 
       
       .main {
         width: 500px;

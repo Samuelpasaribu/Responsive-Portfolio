@@ -4,7 +4,6 @@
 
     * {
     /* Box-model */
-    box-sizing: border-box;
   
     /* Positioning */
     margin: 0;
@@ -259,7 +258,7 @@ MEDIUM SIZED DEVICES --LAPTOPS TABLETS
       }
     
     .content {
-          width: 720px;
+        width: 720px;
       }
       
       .main, {
@@ -302,6 +301,7 @@ Full Page Site
 *******************/
 @media screen and (max-width: 980px) {
 
+   
     header .container {
         width: 810px;
     }
@@ -317,10 +317,12 @@ Full Page Site
     .main {
         width: 420px;
     }
+
     
     .portfolio {
         text-align: center;
     }
+    
     
     .portfolio-item {
         width: 100%;
@@ -328,7 +330,7 @@ Full Page Site
     }
     
     .portfolio-item:nth-child(even) {
-        margin-left: 0;
+        margin-left: 25px;
     }
 }
   
@@ -349,7 +351,7 @@ SMALL MOBILE DEVICES
     }
     
     header .container {
-       padding: 0;
+       padding: 0 auto;
       }
     
       main.container{
@@ -359,7 +361,7 @@ SMALL MOBILE DEVICES
       .name, .logo {
         width:75%;
         text-align: center;
-        padding: 0 auto;
+        padding: 0;
         position: relative;
       }
       
@@ -373,7 +375,7 @@ SMALL MOBILE DEVICES
         text-align: center;
         padding: 1.7em 0;
         font-size: 1.2em;
-        margin: 15px 0;
+        margin: 15px;
       }
 
       .nav a{
@@ -393,11 +395,11 @@ SMALL MOBILE DEVICES
         padding-left: 0 0;
       }
       
-      .content {
+     /* .content {
           width: 580px;
-          padding: 0 20px;
+          padding: 0;
           margin-left: 20px;
-      } 
+      } */
       
       .main {
         width: 500px;
@@ -412,8 +414,16 @@ SMALL MOBILE DEVICES
       .portfolio-item {
         width: 100%;
         margin: 0 auto;
+        text-align: center;
       }
       
+      .item-name{
+        width: 47.7%;
+        margin: 0 auto;
+        text-align: center;
+
+      }
+
       .portfolio-item:nth-child(even) {
           margin-left: 0;
       }
@@ -428,6 +438,6 @@ SMALL MOBILE DEVICES
       }
       
       footer{
-          width: 100%;
+          width: 90%;
           text-align: center;
       }
